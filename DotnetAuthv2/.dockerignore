@@ -1,0 +1,35 @@
+# Build outputs
+bin/
+obj/
+
+# Visual Studio files
+.vs/
+.vscode/
+
+# Git
+.git/
+.gitignore
+
+# Docker files
+Dockerfile*
+.dockerignore
+
+# Logs
+*.log
+
+# Runtime files
+*.user
+*.suo
+*.cache
+*.tmp
+
+# NuGet packages
+*.nupkg
+packages/
+
+# Test results
+TestResults/
+
+# OS generated files
+.DS_Store
+Thumbs.db 
