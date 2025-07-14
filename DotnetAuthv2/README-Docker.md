@@ -78,3 +78,15 @@ docker-compose restart dotnetauthv2
 ## Yapılandırma
 
 Docker ortamındaki yapılandırma `appsettings.Docker.json` dosyasında bulunmaktadır. Connection string'ler ve diğer ayarlar bu dosyadan okunur.
+
+# PowerShell script ile (en kolay)
+
+.\docker-setup.ps1
+
+# Veya manuel olarak
+
+docker-compose up -d --build
+
+# 30 saniye bekle
+
+docker-compose exec dotnetauthv2 dotnet ef database update
